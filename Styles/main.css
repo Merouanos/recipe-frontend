@@ -1,0 +1,162 @@
+:root{
+    --main-background:hsl(30, 54%, 90%);
+    --h2-color:hsl(14, 45%, 36%);
+    --h1-color:hsl(24, 5%, 18%);
+    --h3-color: hsl(332, 51%, 32%);
+    --secondry-background:hsl(330, 100%, 98%) ;
+    --p-size:16px;
+    --strong-color:hsl(30, 10%, 34%);
+    --p-color:#8a8683;
+
+
+
+} 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    height: 100vh;
+    background-color: var(--main-background);
+    font-size: var(--p-size);
+    font-family: "Outfit", sans-serif;
+}
+
+
+.container{
+    background-color: white;
+    margin:auto;
+    height: 1700px;
+    width: 750px;
+    border-radius: 20px;
+    padding: 45px 40px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    img{
+        border-radius: 15px;
+        width: 650px;
+        
+    }
+    header{
+    height: 130px;
+    h1{
+        color: var(--h1-color);
+        margin-bottom: 35px;
+        font-family: "Young Serif", serif;
+    }
+    p{
+        color: var(--p-color);
+    }
+    }
+
+
+    .box{
+        background-color: var(--secondry-background);
+        width: 655px;
+        height: 180px;
+        padding-left: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        h3{
+            color: var(--h3-color)
+
+
+
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 75px;
+            gap: 10px;
+            p{
+                margin-left: 18px;
+            display:inline-flex;
+               
+            }
+        }
+    }
+    h2{
+        font-family: "Young Serif", serif;
+        color: var(--h2-color);
+
+        }
+        li{
+            list-style-position: inside;
+        }
+        span{
+            font-weight: bold;
+        }
+
+    .ingr{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 235px;
+        ul{
+            
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        border-bottom: 1px solid ;
+
+
+    }
+     
+.ins{
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    ol{
+            
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    border-bottom: 1px solid ;
+}    
+
+
+
+
+.nut{
+
+    height: 266px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    table{
+        border-spacing: 0 15px;
+    }
+   table tr:not(:last-child) td{
+    border-bottom:solid 1px;
+    
+
+   }
+   span{
+    color: var(--h2-color);
+}
+}
+    
+
+
+
+
+
+
+
+
+
+
+}
